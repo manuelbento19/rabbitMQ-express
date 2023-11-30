@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq-provider",
+  "version": "1.0.0",
+  "description": "ntegrating RabbitMQ for Real-Time Communication and Messaging Capabilities",
+  "main": "server.js",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rabbitmq",
+    "express",
+    "docker"
+  ],
+  "author": "Manuel Canganjo",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2"
+  }
+}
